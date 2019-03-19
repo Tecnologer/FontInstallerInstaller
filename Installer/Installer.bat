@@ -19,6 +19,8 @@ cls
 @del /Q /S %input%
 @del /Q /S %output%
 
+WixAutoInstaller.exe -p "..\AppInstaller\Product.wxs" -a "..\..\FontInstaller\FontInstaller\Properties\AssemblyInfo.cs" -v %version%
+
 @echo Building solution
 msbuild /verbosity:m /p:Configuration=Release ..\..\FontInstaller\FontInstaller.sln
 if ERRORLEVEL 1 exit /B
@@ -32,8 +34,6 @@ if ERRORLEVEL 1 exit /B
 
 :: HACK .. 3 second delay
 ping 127.0.0.1 -n 4 > nul
-
-WixAutoInstaller.exe -p "..\AppInstaller\Product.wxs" -v %version%
 
 msbuild /verbosity:m /p:Configuration=Release "..\AppInstaller\AppInstaller.sln"
 if ERRORLEVEL 1 exit /B
