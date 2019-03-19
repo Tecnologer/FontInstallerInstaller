@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
   <!-- Standard Version -->
-  <?define AppVersion    = "_VERSION_" ?>
+  <?define AppVersion    = "0.0.1.0002" ?>
   <?define AppName       = "Font Installer"?>
   <?define InstallDir    = "Font Installer"?>
-  <?define ProductGUID   = "_PGUID_"?>
+  <?define ProductGUID   = "28588c60-588c-20c5-5828-400500090524" ?>
 
   <!-- NEVER CHANGE THESE VALUES -->
   <?define UpgradeGUID                 = "597E476A-00A1-4F75-BE4B-8C7E836A3573" ?>
