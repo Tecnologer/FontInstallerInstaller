@@ -11,6 +11,7 @@ Proyecto para generar el instalador para el [Instalador de Fuentes][1]
 
 # Uso
 
+- Descargar e instalar [Wix Toolset][2]
 - `cd Installer`
 - `Installer.bat <version>`
 
