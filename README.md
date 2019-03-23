@@ -9,6 +9,11 @@ Proyecto para generar el instalador para el [Instalador de Fuentes][1]
 # Herramientas
 - [WixAutoInstaller][3]
 
+# Uso
+
+- `cd Installer`
+- `Installer.bat <version>`
+
 [1]: https://github.com/Tecnologer/FontInstaller
 [2]: http://wixtoolset.org/
 [3]: https://github.com/Tecnologer/WixAutoInstaller
